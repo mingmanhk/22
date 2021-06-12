@@ -2,6 +2,11 @@
     text-align: center;
   }
 
+.text-right{
+  text-align: right;
+  display: inline;
+}
+
 
   body {
     position: relative;
@@ -17,3 +22,25 @@
     text-decoration: none;
   }
   
+  header{
+    background-color:turquoise;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  footer{
+    background-color:purple;
+    color: white;
+  }
+
+  main{
+    padding: 10px;
+  }
+
+
+li {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+}
